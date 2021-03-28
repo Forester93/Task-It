@@ -36,3 +36,9 @@ TaskIt is a user-friendly, low-resource interface that uses the local storage an
 • Added basic blocks for business hours.  
 • Added reset.css file.  
 • Added screenshot for the page.
+
+### Third Commit
+
+• Added time-dependent colour-coding function.
+• Added a page footer.
+• Added a colour legend.
