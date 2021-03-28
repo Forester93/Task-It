@@ -12,7 +12,7 @@ TaskIt is a user-friendly, low-resource interface that uses the local storage an
 
 ## Link to the Github Repository
 
-[TaskIt Planner Github Repo](https://github.com/Forester93/riddle-me-quiz/)
+[TaskIt Planner Github Repo](https://github.com/Forester93/Task-It)
 
 ## Screenshot of the Application
 
