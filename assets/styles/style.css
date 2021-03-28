@@ -25,6 +25,8 @@ textarea {
   white-space: pre-wrap;
 }
 
+/* block styling */
+
 .time-block {
   text-align: center;
   border-radius: 15px;
@@ -42,7 +44,7 @@ textarea {
   border-top: 1px dashed #000000;
   font-weight: bolder;
 }
-
+/* time-of-day colour coding */
 .past {
   background-color: #494949;
   color: white;
@@ -58,6 +60,8 @@ textarea {
   color: black;
 }
 
+/* save button styling */
+
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -72,6 +76,8 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+/* contact card */
+
 .profile-link img {
   width: 1.5vw;
   height: 1.5vw;
@@ -83,6 +89,7 @@ textarea {
   padding: 0.5vw;
 }
 
+/* floating colour legend  */
 #colour-legend {
   position: fixed;
   left: 1%;
@@ -97,4 +104,9 @@ textarea {
   padding: 2px;
   margin: 2px;
   border-radius: 5px;
+}
+
+/* hide the alert message */
+#alert {
+  display: none;
 }
