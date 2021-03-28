@@ -38,7 +38,7 @@ function formulateBlocks(){
             .text(moment(i,'h')
             .format('kk:mm'));
         let timeBlockDiv2=$('<textarea>')
-            .addClass('col-10 future')
+            .addClass('col-8 future')
             .attr('id','time-'+i)
             .attr('time-attr',i);
         let timeBlockDiv3=$('<button>')
@@ -46,11 +46,18 @@ function formulateBlocks(){
             .text('💾')
             .attr('id','save-'+i)
             .attr('time-attr',i);
+        // let timeBlockDiv4=$('<button>')
+        //     .addClass('col-1 saveBtn')
+        //     .text('↻')
+        //     .attr('id','remove-'+i)
+        //     .attr('time-attr',i);
+            
         // timeBlockDiv3.on('click',saveItem(timeBlockDiv3.attr('time-attr')));
 
         timeBlock.append(timeBlockDiv1);
         timeBlock.append(timeBlockDiv2);
         timeBlock.append(timeBlockDiv3);
+        // timeBlock.append(timeBlockDiv4);
         timeBlocks.append(timeBlock);
     }
     // add the end time of the day without the time block - assumed the person leaves at 5:00pm

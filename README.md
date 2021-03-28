@@ -39,12 +39,12 @@ TaskIt is a user-friendly, low-resource interface that uses the local storage an
 
 ### Third Commit
 
-• Added time-dependent colour-coding function.
-• Added a page footer.
+• Added time-dependent colour-coding function.  
+• Added a page footer.  
 • Added a colour legend.
 
 ### Fourth Commit
 
-• Added save and retrieve items functionalitites to the local storage.
-• Added alert functionality to display a message once a save has occured.
+• Added save and retrieve items functionalitites to the local storage.  
+• Added alert functionality to display a message once a save has occured.  
 • Added reset functionality to the application.
